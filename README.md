@@ -21,7 +21,7 @@ You can run the `main.py` file with or without arguments.
 
 To run the program with user-specified data, you need to provide the following command-line arguments:
 - `algorithm`: The algorithm to use (e.g., `greedy`, `hill`, `genetic`)
-- `num_rides`: The total number of rides in the park.
+- `num_rides`: The total number of rides in the park. We assume that the User knows how many rides are in the park, ranges between 10-40.
 - `total_time_available`: The time you have available for the visit (in minutes).
 - `visit_day`: The day of the week (e.g., `Monday`, `Tuesday`, etc.).
 - `desired_rides`: A comma-separated list of ride IDs that the user wants to visit.
